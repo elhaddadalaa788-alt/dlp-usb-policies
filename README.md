@@ -127,7 +127,7 @@ Regular security awareness training ensures that users understand their role in 
 ### Environment
 - Windows Virtual Machine
 - VirtualBox with Extension Pack installed
-- USB 2.0 / 3.0 Controller enabled
+- USB 2.0 / 3.0 Controller enabled\
 
 
 

@@ -1,0 +1,51 @@
+
+**Enabled Policies:**
+- Removable Disks: Deny read access
+- Removable Disks: Deny write access
+
+These settings prevent users from reading or writing data to USB storage devices.
+
+---
+
+### Validation and Testing
+
+#### Standard User Test
+- USB device connected
+- Access denied as expected
+- System message confirms restriction
+
+#### Administrative User Test
+- Administrator can modify policies
+- Exceptions can be configured if required
+
+---
+
+## 8. Exceptions for Authorized Users
+
+Authorized users (e.g., IT administrators) can be granted exceptions by:
+- Modifying Group Policy settings
+- Applying user-based policies
+- Restricting access by security groups
+
+All exceptions are logged and monitored.
+
+---
+
+## Conclusion
+
+This project demonstrates how **Data Loss Prevention policies** can be effectively designed and enforced to protect sensitive organizational data. By combining **policy definition**, **technical controls**, and **user education**, organizations can significantly reduce the risk of data leakage through external devices while maintaining operational efficiency.
+
+---
+
+## Technologies Used
+- Windows OS
+- Group Policy Editor
+- VirtualBox
+- USB Device Control
+- DLP Best Practices
+
+---
+
+## Author
+Student Project – 4Geeks Academy  
+Data Loss Prevention (DLP) Policies for External Devices

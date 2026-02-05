@@ -129,11 +129,5 @@ Regular security awareness training ensures that users understand their role in 
 - VirtualBox with Extension Pack installed
 - USB 2.0 / 3.0 Controller enabled
 
----
 
-### USB Restriction Configuration
-
-Using **Group Policy Editor**:
-
-**Path:**
 
